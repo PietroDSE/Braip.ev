@@ -1,0 +1,9 @@
+@media screen and (min-width:837px){
+    h1#transition{
+        left: 38%;
+    }
+    h1#thanksMSG{
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

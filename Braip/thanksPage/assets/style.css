@@ -1,10 +1,9 @@
 @charset "UTF-8";
 *{
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
-h1{
-    text-align: center;
-}
+
 img#checkbtn{
     position: absolute;
     top: 45%;
@@ -13,16 +12,21 @@ img#checkbtn{
 }
 h1#transition{
     color: rgb(36, 157, 11);
+    position: absolute;
+    left: 15%;
 }
 h1#thanksMSG{
+    text-wrap: nowrap;
+    font-size: 17px;
     position: absolute;
     bottom: 20%;
 }
 a#link{
     position: absolute;
+    font-size: 15px;
+    text-wrap: nowrap;
     color: black;
-    text-decoration: none;
-    top: 90%;
+    top: 88%;
     left: 50%;
     transform: translate(-50%);
 }
