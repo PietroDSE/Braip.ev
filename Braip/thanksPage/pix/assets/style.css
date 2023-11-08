@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+img#checkbtn{
+    width: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1#transition{
+    color: rgb(36, 157, 11);
+    position: absolute;
+    right: 35%;
+    text-wrap: nowrap   ;
+}
+h1#thanksMSG{
+    text-wrap: nowrap;
+    font-size: 17px;
+    position: absolute;
+    bottom: 20%;
+}
+a#link{
+    position: absolute;
+    font-size: 15px;
+    text-wrap: nowrap;
+    color: black;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%);
+}
+a#link:hover{
+    color: rgb(26, 26, 26);
+}
